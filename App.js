@@ -11,7 +11,7 @@ export default function App() {
       <Text style={styles.title}>PATIKASTORE</Text>
       <TextInput 
         style={styles.search}
-        value='Ara...'/>
+        placeholder='Ara...'/>
       <FlatList 
           data={data_products}
           keyExtractor={item => item.id.toString()}
